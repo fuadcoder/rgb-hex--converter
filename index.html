@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB-Hex Converter</title>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RGB-Hex Converter</h1>
+    <div class="container">
+        <div class="wrapper">
+            <label for="rgb">RGB</label>
+            <input type="text" id="rgb" oninput="toHex()" placeholder="Enter RGB Value">
+        </div>
+
+        <div class="wrapper">
+            <label for="hex">HEX</label>
+            <input type="text" id="hex" oninput="toRgb()" placeholder="Enter Hex Value">
+        </div>
+
+    </div>
+    <!--Script-->
+   <script src="script.js"></script>
+</body>
+</html>
